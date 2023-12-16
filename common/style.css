@@ -1,8 +1,10 @@
 @charset "UTF-8";
-body, 
-{
+body,
+html {
   background-color: #000;
+  background-color: var(--bg-color);
   color: #f0c0ff;
+  color: var(--default-color);
   font-family: Verdana, "Times New Roman", sans-serif;
   font-size: 14px;
 }
