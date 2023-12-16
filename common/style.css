@@ -1,6 +1,8 @@
-body {
-  background-color: black;
-}
-p {
-  color: #F0C0FF;
+@charset "UTF-8";
+body, 
+{
+  background-color: #000;
+  color: #f0c0ff;
+  font-family: Verdana, "Times New Roman", sans-serif;
+  font-size: 14px;
 }
