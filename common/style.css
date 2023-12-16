@@ -17,7 +17,7 @@ html {
   background-color: var(--bg-color);
   color: #f0c0ff;
   color: var(--default-color);
-  font-family: Tahoma, "Times New Roman", sans-serif;
+  font-family: Arial, "Times New Roman", sans-serif;
   font-size: 14px;
 }
 
