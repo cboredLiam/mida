@@ -1,6 +1,196 @@
-body {
-  background-color: black;
+@charset "UTF-8";
+
+@font-face {
+  font-family: chiller;
+  src: url("/common/gry.ttf");
 }
+
+:root {
+  --default-color: #f0c0ff;
+  --ebony-purple: #420084;
+  --bg-color: #000;
+}
+
+body,
+html {
+  background-color: #000;
+  background-color: var(--bg-color);
+  color: #f0c0ff;
+  color: var(--default-color);
+  font-family: Verdana, "Times New Roman", sans-serif;
+  font-size: 14px;
+}
+
+code {
+  white-space: pre;
+}
+
+h1 {
+  font-size: 17pt;
+}
+
+h2 {
+  font-size: 14pt;
+}
+  
+hr {
+  height: 2px;
+  margin: 20px 42%;
+  background-color: #f0c0ff;
+  background-color: var(--default-color);
+  border: none;
+}
+
 p {
-  color: #F0C0FF;
+  margin: 0;
+  padding: 0;
 }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid p {
+    text-align: center;
+  }
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #f8f8ff;
+}
+
+a:hover {
+  color: #ff0;
+}
+
+.hidden,
+.hidden:hover,
+.hidden:visited {
+  color: #000;
+  color: var(--bg-color);
+}
+
+.center {
+  text-align: center;
+}
+
+.center img {
+    height: auto;
+    max-width: 95vw;
+  }
+
+.hint {
+  text-align: justify;
+  -moz-text-align-last: center;
+       text-align-last: center;
+  margin: 1vh auto;
+  max-width: 800px;
+}
+
+.hint p {
+    padding-bottom: 14px;
+  }
+
+.hint p[\:has\(\%2B\%20hr\)],
+    .hint p:last-of-type,
+    .hint p:last-of-type {
+      padding-bottom: 0;
+    }
+
+.hint p:has(+ hr),
+    .hint p:last-of-type,
+    .hint p:last-of-type {
+      padding-bottom: 0;
+    }
+
+.first-time-btn {
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  position: fixed;
+  bottom: 3px;
+  right: 3px;
+  background-color: #420084;
+  background-color: var(--ebony-purple);
+}
+
+.first-time-btn:before {
+  content: '🔊';
+  font-size: 22px;
+  line-height: 44px;
+  width: 44px;
+  padding-left: 7px;
+}
+
+.warning {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ff4040;
+  margin: 0 auto;
+  padding: 20px;
+  color: #ff4040;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.warning p {
+    padding-bottom: 14px;
+  }
+
+.warning.small {
+  font-size: 12px;
+}
+
+.justify-left {
+  text-align: left;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+
+.version {
+  font-size: 10pt;
+}
+
+.speech  {color: #f7f }
+.weird { color: #711 }
+.weird2 { color: #171 }
+.weird3 { color: #300 }
+.bbl { color: #444 }
+.gsk { color: #aaa }
+.lin { color: #cc8811 }
+.skn { color: #c94 }
+.nen { color: #420084; color: var(--ebony-purple) }
+.laura { color: #0ff }
+.lis { color: #fff }
+.gry { color: #808080 }
+.grn { color: #ffc9c9 }
+.e94 { color: #eeee94 }
+.frk { color: #606000 }
+.vsn { color: #408 }
+.ppr { color: #473f23 }
+.mrc { color: #976930 }
+.mux { color: #000; color: var(--bg-color) }
+.mx { color: #e08080 }
+.cc { color: #6cf }
+.vrb { color: #dff0ff }
+.chl { color: #d31214} 
+.gsrv { color: #474747 }
+.lady { color: #420084; color: var(--ebony-purple); font-family: "chiller", sans-serif; font-size: 20px; }
+.transit { color: #252525; font-family: "chiller", sans-serif; font-size: 20px; }
