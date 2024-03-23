@@ -5,9 +5,11 @@
 [7:31:22] Analyzing pattern...
 [7:32:10] <ERROR> ERROR IN 4TH NUMBER
 [7:32:10] <ERROR> Pattern 1 is out of bounds!
+[7:33:02] <ERROR> Identified out of bounds case: #0011
 [7:33:02] <PATCH> Out of bounds error fixed by resetting
 [7:33:34] <ERROR> ERROR IN 5TH NUMBER
 [7:33:34] <ERROR> Pattern 2 is out of bounds!
 [7:35:41] <ERROR> Out of bounds cannot be fixed
+[7:35:41] <ERROR> Program has no backup patch for out of bounds case: #0012
 [7:35:41] <WARNING> FATAL ERROR!
 [7:35:42] Closing program...
