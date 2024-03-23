@@ -8,7 +8,7 @@
 [7:31:19] STEP 3 successful
 [7:31:21] <WARNING> STEP 4: Pattern 1 is out of bounds!
 [7:31:21] <WARNING> Overflow error
-[7:31:22] <WARNING> Memory space for value is unavailable. Stored number is disposed. 
+[7:31:22] <WARNING> Memory space for value is unavailable. Stored number is disposed. Continuing on with pattern.
 [7:31:22] STEP 4 successful with patch
 [7:31:24] <WARNING> STEP 5: Pattern 2 is out of bounds!
 [7:31:24] <ERROR> FATAL ERROR: Data type invalid.
